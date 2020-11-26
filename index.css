@@ -20,3 +20,20 @@ nav{
     font-size: 3em;
     color: white;
 }
+
+.aboutSection{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 600px;
+}
+
+.aboutImageContainer{
+    width:50%;
+    background: url(https://imgur.com/uMEr8gA)
+}
+
+.aboutTextContainer{
+    width:50%;
+    text-align: center;
+    margin-left: 300px;
+}
