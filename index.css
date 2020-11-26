@@ -1,13 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
     background-color: blanchedalmond;
+    font-size: 1.5em;
+    width:100%;
+    height: 15vh;
+    align-content: center;
 }
 
 .heroBanner{
     background: url(https://upload.wikimedia.org/wikipedia/commons/7/78/Empanadas_argentinas_2017.jpg);
     width:100%;
-    height:70vh;
+    max-width:100%;
+    height:90vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,24 +25,27 @@ nav{
 
 .heroText{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 260px;
     font-size: 3em;
     color: white;
 }
 
 .aboutSection{
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    margin: 600px;
+    width:100%;
+    height:auto;
 }
 
-.aboutImageContainer{
-    width:50%;
-    background: url(https://imgur.com/uMEr8gA)
+.momImg{
+    margin-top:500px;
+    width: 75%;
+    height: 70vh;
 }
 
 .aboutTextContainer{
     width:50%;
+    height: 70vh;
     text-align: center;
     margin-left: 300px;
 }
