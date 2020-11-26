@@ -6,7 +6,7 @@
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: blanchedalmond;
+    background-color: white;
     font-size: 1.5em;
     width:100%;
     height: 15vh;
@@ -34,21 +34,20 @@ nav{
 .aboutSection{
     display:flex;
     flex-wrap:nowrap;
-    background-color: blanchedalmond;
+    background-color: white;
 }
 
 .aboutImageContainer{
     margin-top:750px;
     width: 50%;
     height: 50vh;
-    border: 4px solid blanchedalmond;
+    /*border: 4px solid black;*/
 }
 
 .momImg {
     width:70%;
-    height:auto;
+    height:50vh;
     margin-left:100px;
-    margin-top:10px;
 }
 
 .aboutTextContainer{
@@ -56,9 +55,16 @@ nav{
     width:50%;
     height: 50vh;
     text-align: center;
-    border: 4px solid blanchedalmond;
+    /*border: 4px solid black;*/
 }
 
 .actualAboutText{
-    margin-top:100px;
+    margin-top:50px;
+    margin-left:200px;
+    width:12em;
+    height:auto;
+}
+
+.footer{
+    background-color:blanchedalmond;
 }
