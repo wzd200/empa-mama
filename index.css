@@ -32,6 +32,7 @@ nav{
     font-size: 3em;
     color: whitesmoke;
     mix-blend-mode: exclusion;
+    text-shadow:10px;
 }
 
 .menuSection{
